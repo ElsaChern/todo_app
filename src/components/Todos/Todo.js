@@ -1,5 +1,5 @@
-const Todo = () => {
-  return <h4>This is Todo</h4>;
+const Todo = ({ todo }) => {
+  return <h4>{todo}</h4>;
 };
 
 export default Todo;
