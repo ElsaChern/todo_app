@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2>Todo App</h2>
+      <p className="Title">Todo App</p>
       <TodoForm addTodo={addTodosHendler} />
       <TodoList todos={todos} />
     </div>

@@ -1,9 +1,10 @@
 import Todo from "./Todo";
+import style from "./TodoList.module.css";
 
 const TodoList = ({ todos }) => {
   return (
-    <div>
-      {!todos.length && <h4>List is empty</h4>}
+    <div className={style.todoList}>
+      {!todos.length && <p className={style.emptyText}>List is empty ☹</p>}
       {todos.map((todo, index) => (
         <Todo key={index} todo={todo} />
       ))}
