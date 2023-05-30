@@ -19,10 +19,12 @@ const TodoForm = ({ addTodo }) => {
           placeholder="Enter todo here"
           value={text}
           onChange={(e) => setText(e.target.value)}
+          maxLength={30}
         />
-        <Button type="submit" title="Add todo">
+        <Button type="submit" title="Add todo" disabled={!text}>
           Add
         </Button>
+        {text.length > 29 ? <p>maximum string length reached</p> : ""}
       </form>
     </div>
   );
