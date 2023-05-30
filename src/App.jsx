@@ -59,7 +59,7 @@ const App = () => {
         toggleTodo={toggleTodoHendler}
       />
       {completedTodos > 0 && (
-        <p className="BottomText">{`You have completed ${completedTodos} ${completedTodos > 1 ? "todos" : "todo"
+        <p className="BottomText">{`You have completed ${completedTodos} ${completedTodos > 1 ? "todos 🎉" : "todo 🎉"
           }`}</p>
       )}
     </div>
