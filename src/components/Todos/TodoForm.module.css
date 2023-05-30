@@ -2,29 +2,17 @@
     margin-top: 40px;
 }
 
-.formWrapper input {
-    height: 40px;
-    padding-left: 20px;
-    width: 40%;
-    background-color: rgba(240, 248, 255, 0.47);
-    border: 1px solid black;
-    border-radius: 10px 10px;
-    font-size: 20px;
-}
-
-.formWrapper button {
-    height: 50px;
-    width: 5%;
-    font-size: 20px;
+.formInput {
+    height: 40%;
     padding: 10px;
+    width: 40%;
+    font-size: 1.3rem;
+    background-color: rgba(240, 248, 255, 0.844);
     border-radius: 10px 10px;
-    margin: 10px;
-    background-color: rgba(8, 8, 8, 0.726);
-    color: azure;
     border: 1px solid black;
+    outline: none;
 }
 
-.formWrapper button:hover {
-    background-color: rgba(247, 246, 243, 0.537);
-    color: black;
+.formInput:focus {
+    outline: thick double rgb(3, 3, 3);
 }

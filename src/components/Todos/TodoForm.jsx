@@ -14,7 +14,7 @@ const TodoForm = ({ addTodo }) => {
   return (
     <div className={style.formWrapper}>
       <form onSubmit={onSubmitHendler}>
-        <input
+        <input className={style.formInput}
           type="text"
           placeholder="Enter todo here"
           value={text}
