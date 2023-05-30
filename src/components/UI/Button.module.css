@@ -1,21 +1,21 @@
 .button {
-    height: 50px;
+    height: 5%;
     width: 5%;
-    font-size: 20px;
+    font-size: 1.3rem;
     padding: 10px;
     border-radius: 10px 10px;
     margin: 10px;
-    background-color: rgba(8, 8, 8, 0.726);
-    color: azure;
+    background-color: rgb(228, 174, 73);
+    color: rgb(0, 0, 0);
     border: 1px solid black;
 }
 
 .button:hover {
-    background-color: rgba(247, 246, 243, 0.537);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 174, 73);
 }
 
 .button:disabled {
-    background-color: rgba(247, 246, 243, 0.537);
-    color: rgba(247, 246, 243, 0.537);
+    background-color: rgba(247, 246, 243, 0.699);
+    color: rgba(118, 118, 116, 0.936);
 }

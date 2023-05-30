@@ -9,3 +9,9 @@
   font-style: oblique;
   text-shadow: 13px 10px 5px #393938;
 }
+
+.BottomText {
+  margin-top: 15px;
+  font-size: 25px;
+  text-shadow: 3px 4px 4px #393938;
+}
