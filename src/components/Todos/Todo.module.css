@@ -33,9 +33,11 @@
 
 .todo.completedTodo .noteIcon,
 .todo.completedTodo .checkIcon,
-.todo.completedTodo .deleteIcon {
+.todo.completedTodo .deleteIcon,
+.todo.completedTodo .text {
     color: gray;
     border: none;
+    text-decoration: line-through;
 }
 
 .checkIcon,
