@@ -14,14 +14,15 @@ const TodoForm = ({ addTodo }) => {
   return (
     <div className={style.formWrapper}>
       <form onSubmit={onSubmitHendler}>
-        <input className={style.formInput}
+        <input
+          className={style.formInput}
           type="text"
           placeholder="Enter todo here"
           value={text}
           onChange={(e) => setText(e.target.value)}
           maxLength={30}
         />
-        <Button type="submit" title="Add todo" disabled={!text}>
+        <Button type="submit" title="Add todo" disabled={!text.trim()}>
           Add
         </Button>
         {text.length > 29 ? <p>maximum string length reached</p> : ""}
