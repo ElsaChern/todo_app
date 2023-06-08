@@ -1,40 +1,44 @@
-# Getting Started with Create React App
+# Учебный проект "Todo App"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+👨🏻‍💻 Проект представляет собой одностраничный сайт, выполненный в качестве практического задания курса по React 
 
-## Available Scripts
+## Функционал проекта
 
-In the project directory, you can run:
+- добавление новой задачи с помощью поля ввода;
+- валидация ввода (ограничение количества символов в строке и ограничение на добавление пустой строки)
+- отображение введенный задач;
+- возможность отмечать задачи как "завершенные";
+- возможность удалять только завершенные либо все задачи из списка;
+- отображение количества завершенных задач в конце списка
 
-### `npm start`
+### Технологический стек
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+При создании проекта использовался следующий стек технологий: HTML, CSS-модули, React, функциональные компоненты React. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Работа с проектом 
 
-### `npm test`
+Для запуска проекта, пожалуйста, выполните следующие действия:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Склонировать проект на ваш компьютер с Github с помощью команды:
 
-### `npm run build`
+`git clone git@github.com:ElsaChern/todo_app.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Установить зависимости:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Запустить проект:
 
-### `npm run eject`
+`npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Скриншоты
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1040" alt="image" src="https://github.com/ElsaChern/todo_app/assets/94759165/6e9bb525-f2fe-4ffd-8033-39df80dbb1b9">
+<img width="1081" alt="image" src="https://github.com/ElsaChern/todo_app/assets/94759165/c3f671b2-e84f-4377-82f1-f75743f3c6d4">
+<img width="1037" alt="image" src="https://github.com/ElsaChern/todo_app/assets/94759165/bcf882fd-71fe-432b-b129-2c865d7e404b">
+<img width="1023" alt="image" src="https://github.com/ElsaChern/todo_app/assets/94759165/cd7f0a9b-0651-46d3-adbe-70ea0aa36aee">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+
+
